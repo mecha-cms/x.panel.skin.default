@@ -32,7 +32,7 @@ if ('.state' === $_['path'] && 'get' === $_['task']) {
             'default' => 'Default',
             'none' => 'None' // Allow user to disable skin feature :)
         ],
-        'stack' => 30
+        'stack' => 40
     ];
     if ('default' === $skin) {
         $_['lot']['desk']['lot']['form']['lot'][1]['lot']['tabs']['lot']['panel']['lot']['fields']['lot']['variant'] = [
@@ -43,7 +43,7 @@ if ('.state' === $_['path'] && 'get' === $_['task']) {
                 'dark' => 'Dark',
                 'light' => 'Light'
             ],
-            'stack' => 30.1
+            'stack' => 40.1
         ];
     }
 }
