@@ -17,7 +17,7 @@ import {
 } from '@taufik-nurrohman/to';
 
 function onChange() {
-    let toggles = getElements('[name="cookie[variant]"]:not(:disabled)');
+    let toggles = getElements('[name="state[x][panel][skin][variant]"]:not(:disabled)');
     toCount(toggles) && toggles.forEach(toggle => {
         offEvents(['blur', 'change'], toggle, onChangeToggle);
         onEvents(['blur', 'change'], toggle, onChangeToggle);

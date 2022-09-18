@@ -1,7 +1,8 @@
 <?php
 
+// Disable this extension if `panel.skin` extension is disabled or removed ;)
 if (!isset($state->x->{'panel.skin'})) {
-    return; // Missing `panel.skin` extension :(
+    return $_;
 }
 
 $name = $state->x->panel->skin->name ?? "";
@@ -37,3 +38,5 @@ if ('.state' === $_['path'] && 'get' === $_['task']) {
         ];
     }
 }
+
+return $_;
