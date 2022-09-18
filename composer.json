@@ -1,0 +1,8 @@
+{
+  "description": "The default panel skin.",
+  "license": "GPL-3.0-or-later",
+  "name": "mecha-cms/x.panel.skin.default",
+  "require": {
+    "mecha-cms/x.panel.skin": "^2.0.0"
+  }
+}
