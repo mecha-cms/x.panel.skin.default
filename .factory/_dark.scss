@@ -86,7 +86,7 @@
   --fill-tab: #{shade(1%)};
   --fill: #{shade(0%)};
   --stroke--active: #{shade(15%)};
-  --stroke--focus-visible: rgba(255, 255, 255, .025);
+  --stroke--focus-visible: rgba(255, 255, 255, 0.025);
   --stroke--focus: #{shade(10%)};
   --stroke--hover: #{shade(10%)};
   --stroke-code-block: #{shade(5%)};
@@ -121,7 +121,7 @@
   --color-tag-picker__tag--read-only: #{shade(60%)};
   --color-tag-picker__tag-x: #{shade(95%)};
   --color-tag-picker__tag: #{shade(75%)};
-  --fill-option-picker__option--selected: rgba(255, 255, 255, .025);
+  --fill-option-picker__option--selected: rgba(255, 255, 255, 0.025);
   --fill-tag-picker__tag--disabled: #{shade(5%)};
   --fill-tag-picker__tag--focus: #{shade(15%)};
   --fill-tag-picker__tag--read-only: #{shade(8%)};
@@ -129,7 +129,7 @@
   --fill-tag-picker__tag: #{shade(10%)};
   @each $v in (hover, focus, active) {
     --color-option-picker__option--#{$v}: var(--color);
-    --fill-option-picker__option--#{$v}: rgba(255, 255, 255, .05);
+    --fill-option-picker__option--#{$v}: rgba(255, 255, 255, 0.05);
   }
   blockquote,
   caption,

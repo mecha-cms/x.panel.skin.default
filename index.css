@@ -7,7 +7,7 @@
 
 [pattern]:focus:invalid,
 [required]:focus:invalid {
-  --stroke--focus-visible: rgba(255, 0, 0, .125);
+  --stroke--focus-visible: rgba(255, 0, 0, 0.125);
 }
 
 .lot\:cards .lot\:tasks,
@@ -111,7 +111,7 @@
   --fill-tab: #242424;
   --fill: #222222;
   --stroke--active: #434343;
-  --stroke--focus-visible: rgba(255, 255, 255, .025);
+  --stroke--focus-visible: rgba(255, 255, 255, 0.025);
   --stroke--focus: #383838;
   --stroke--hover: #383838;
   --stroke-code-block: #2d2d2d;
@@ -161,18 +161,18 @@
   --color-tag-picker__tag--read-only: #a7a7a7;
   --color-tag-picker__tag-x: #f4f4f4;
   --color-tag-picker__tag: #c8c8c8;
-  --fill-option-picker__option--selected: rgba(255, 255, 255, .025);
+  --fill-option-picker__option--selected: rgba(255, 255, 255, 0.025);
   --fill-tag-picker__tag--disabled: #2d2d2d;
   --fill-tag-picker__tag--focus: #434343;
   --fill-tag-picker__tag--read-only: #343434;
   --fill-tag-picker__tag--selected: #434343;
   --fill-tag-picker__tag: #383838;
   --color-option-picker__option--hover: var(--color);
-  --fill-option-picker__option--hover: rgba(255, 255, 255, .05);
+  --fill-option-picker__option--hover: rgba(255, 255, 255, 0.05);
   --color-option-picker__option--focus: var(--color);
-  --fill-option-picker__option--focus: rgba(255, 255, 255, .05);
+  --fill-option-picker__option--focus: rgba(255, 255, 255, 0.05);
   --color-option-picker__option--active: var(--color);
-  --fill-option-picker__option--active: rgba(255, 255, 255, .05);
+  --fill-option-picker__option--active: rgba(255, 255, 255, 0.05);
 }
 .is\:dark blockquote,
 .is\:dark caption,
@@ -291,11 +291,11 @@
   --fill-tab--hover: #fbfbfb;
   --fill-tab: #fbfbfb;
   --fill: white;
-  --shadow-button--focus: 0 0 0 3px rgba(0, 0, 0, .05);
-  --shadow-input--focus: 0 0 0 3px rgba(0, 0, 0, .05);
-  --shadow-input--invalid: 0 0 0 3px rgba(255, 0, 0, .15);
+  --shadow-button--focus: 0 0 0 3px rgba(0, 0, 0, 0.05);
+  --shadow-input--focus: 0 0 0 3px rgba(0, 0, 0, 0.05);
+  --shadow-input--invalid: 0 0 0 3px rgba(255, 0, 0, 0.15);
   --stroke--active: #858585;
-  --stroke--focus-visible: rgba(0, 0, 0, .125);
+  --stroke--focus-visible: rgba(0, 0, 0, 0.125);
   --stroke--focus: #9c9c9c;
   --stroke--hover: #9c9c9c;
   --stroke-code-block: #b2b2b2;
@@ -345,18 +345,18 @@
   --color-tag-picker__tag--read-only: #7a7a7a;
   --color-tag-picker__tag-x: #646464;
   --color-tag-picker__tag: #595959;
-  --fill-option-picker__option--selected: rgba(0, 0, 0, .025);
+  --fill-option-picker__option--selected: rgba(0, 0, 0, 0.025);
   --fill-tag-picker__tag--disabled: #dedede;
   --fill-tag-picker__tag--focus: #bdbdbd;
   --fill-tag-picker__tag--read-only: lightgray;
   --fill-tag-picker__tag--selected: #bdbdbd;
   --fill-tag-picker__tag: #c8c8c8;
   --color-option-picker__option--hover: var(--color);
-  --fill-option-picker__option--hover: rgba(0, 0, 0, .05);
+  --fill-option-picker__option--hover: rgba(0, 0, 0, 0.05);
   --color-option-picker__option--focus: var(--color);
-  --fill-option-picker__option--focus: rgba(0, 0, 0, .05);
+  --fill-option-picker__option--focus: rgba(0, 0, 0, 0.05);
   --color-option-picker__option--active: var(--color);
-  --fill-option-picker__option--active: rgba(0, 0, 0, .05);
+  --fill-option-picker__option--active: rgba(0, 0, 0, 0.05);
 }
 .is\:light blockquote,
 .is\:light caption,
