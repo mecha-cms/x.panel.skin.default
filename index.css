@@ -10,13 +10,11 @@
   --stroke--focus-visible: rgba(255, 0, 0, 0.125);
 }
 
-.lot\:cards .lot\:tasks,
 .lot\:files .lot\:tasks,
 .lot\:folders .lot\:tasks,
 .lot\:pages .lot\:tasks {
   gap: 0;
 }
-.lot\:cards .lot\:tasks > * .title svg + span,
 .lot\:files .lot\:tasks > * .title svg + span,
 .lot\:folders .lot\:tasks > * .title svg + span,
 .lot\:pages .lot\:tasks > * .title svg + span {
@@ -54,6 +52,7 @@
   --color-menu-link--hover: #7a7a7a;
   --color-menu-link: #7a7a7a;
   --color-menu-status: #b2b2b2;
+  --color-output: inherit;
   --color-stack--active: #bdbdbd;
   --color-stack--current: #a7a7a7;
   --color-stack--disabled: #4e4e4e;
@@ -235,6 +234,7 @@
   --color-menu-link--hover: #7a7a7a;
   --color-menu-link: #7a7a7a;
   --color-menu-status: #646464;
+  --color-output: inherit;
   --color-stack--active: #646464;
   --color-stack--current: #646464;
   --color-stack--disabled: #b2b2b2;
