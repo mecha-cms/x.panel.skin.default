@@ -1,5 +1,5 @@
 {
-  "description": "The default panel skin.",
+  "description": "The default control panel skin.",
   "license": "GPL-3.0-or-later",
   "name": "mecha-cms/x.panel.skin.default",
   "require": {
