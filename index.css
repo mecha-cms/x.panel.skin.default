@@ -52,6 +52,13 @@
   --color-menu-link--hover: #7a7a7a;
   --color-menu-link: #7a7a7a;
   --color-menu-status: #b2b2b2;
+  --color-menus-link--active: #919191;
+  --color-menus-link--current: #a7a7a7;
+  --color-menus-link--disabled: #4e4e4e;
+  --color-menus-link--focus: #919191;
+  --color-menus-link--hover: #7a7a7a;
+  --color-menus-link: #7a7a7a;
+  --color-menus-status: #b2b2b2;
   --color-output: inherit;
   --color-stack--active: #bdbdbd;
   --color-stack--current: #a7a7a7;
@@ -102,6 +109,11 @@
   --fill-menu-link--focus: #242424;
   --fill-menu-link--hover: #242424;
   --fill-menu-status: #2d2d2d;
+  --fill-menus-link--active: #242424;
+  --fill-menus-link--current: #262626;
+  --fill-menus-link--focus: #242424;
+  --fill-menus-link--hover: #242424;
+  --fill-menus-status: #2d2d2d;
   --fill-stack--current: none;
   --fill-stack--hover: #242424;
   --fill-stack: #242424;
@@ -184,6 +196,11 @@
 .is\:dark .lot\:menu a:active {
   --fill-menu-link--current: #292929;
 }
+.is\:dark .lot\:menus a:focus,
+.is\:dark .lot\:menus a:hover,
+.is\:dark .lot\:menus a:active {
+  --fill-menus-link--current: #292929;
+}
 .is\:dark .is\:folder::after {
   --fill-folder-icon: #545454;
 }
@@ -234,6 +251,13 @@
   --color-menu-link--hover: #7a7a7a;
   --color-menu-link: #7a7a7a;
   --color-menu-status: #646464;
+  --color-menus-link--active: #646464;
+  --color-menus-link--current: #646464;
+  --color-menus-link--disabled: #c8c8c8;
+  --color-menus-link--focus: #646464;
+  --color-menus-link--hover: #7a7a7a;
+  --color-menus-link: #7a7a7a;
+  --color-menus-status: #646464;
   --color-output: inherit;
   --color-stack--active: #646464;
   --color-stack--current: #646464;
@@ -284,6 +308,11 @@
   --fill-menu-link--focus: #fbfbfb;
   --fill-menu-link--hover: #fbfbfb;
   --fill-menu-status: #f4f4f4;
+  --fill-menus-link--active: #fbfbfb;
+  --fill-menus-link--current: #f8f8f8;
+  --fill-menus-link--focus: #fbfbfb;
+  --fill-menus-link--hover: #fbfbfb;
+  --fill-menus-status: #f4f4f4;
   --fill-stack--current: none;
   --fill-stack--hover: #fbfbfb;
   --fill-stack: #fbfbfb;
@@ -368,6 +397,11 @@
 .is\:light .lot\:menu a:hover,
 .is\:light .lot\:menu a:active {
   --fill-menu-link--current: #f6f6f6;
+}
+.is\:light .lot\:menus a:focus,
+.is\:light .lot\:menus a:hover,
+.is\:light .lot\:menus a:active {
+  --fill-menus-link--current: #f6f6f6;
 }
 .is\:light .is\:folder::after {
   --fill-folder-icon: #818181;

@@ -22,13 +22,15 @@
   --color-link--focus: #{shade(30%)};
   --color-link--hover: #{shade(40%)};
   --color-link: #{shade(40%)};
-  --color-menu-link--active: #{shade(30%)};
-  --color-menu-link--current: #{shade(30%)};
-  --color-menu-link--disabled: #{shade(75%)};
-  --color-menu-link--focus: #{shade(30%)};
-  --color-menu-link--hover: #{shade(40%)};
-  --color-menu-link: #{shade(40%)};
-  --color-menu-status: #{shade(30%)};
+  @each $v in (menu, menus) {
+    --color-#{$v}-link--active: #{shade(30%)};
+    --color-#{$v}-link--current: #{shade(30%)};
+    --color-#{$v}-link--disabled: #{shade(75%)};
+    --color-#{$v}-link--focus: #{shade(30%)};
+    --color-#{$v}-link--hover: #{shade(40%)};
+    --color-#{$v}-link: #{shade(40%)};
+    --color-#{$v}-status: #{shade(30%)};
+  }
   --color-output: inherit;
   --color-stack--active: #{shade(30%)};
   --color-stack--current: #{shade(30%)};
@@ -74,11 +76,13 @@
   --fill-input--hover: #{shade(90%)};
   --fill-input: #{shade(90%)};
   --fill-mark: #{shade(90%)};
-  --fill-menu-link--active: #{shade(98%)};
-  --fill-menu-link--current: #{shade(97%)};
-  --fill-menu-link--focus: #{shade(98%)};
-  --fill-menu-link--hover: #{shade(98%)};
-  --fill-menu-status: #{shade(95%)};
+  @each $v in (menu, menus) {
+    --fill-#{$v}-link--active: #{shade(98%)};
+    --fill-#{$v}-link--current: #{shade(97%)};
+    --fill-#{$v}-link--focus: #{shade(98%)};
+    --fill-#{$v}-link--hover: #{shade(98%)};
+    --fill-#{$v}-status: #{shade(95%)};
+  }
   --fill-stack--current: none;
   --fill-stack--hover: #{shade(98%)};
   --fill-stack: #{shade(98%)};
@@ -149,6 +153,15 @@
       &:hover,
       &:active {
         --fill-menu-link--current: #{shade(96%)};
+      }
+    }
+  }
+  .lot\:menus {
+    a {
+      &:focus,
+      &:hover,
+      &:active {
+        --fill-menus-link--current: #{shade(96%)};
       }
     }
   }
