@@ -3,6 +3,7 @@
   --color-fix: inherit;
   --color-mark: inherit;
   --color-output: inherit;
+  --fill-tab--current: var(--fill, none);
 }
 
 [pattern]:focus:invalid,
@@ -40,6 +41,11 @@
   --color-input--hover: #bdbdbd;
   --color-input--invalid: #de5f5f;
   --color-input: #bdbdbd;
+  --color-input__file-selector-button--active: #919191;
+  --color-input__file-selector-button--disabled: #4e4e4e;
+  --color-input__file-selector-button--focus: #919191;
+  --color-input__file-selector-button--hover: #7a7a7a;
+  --color-input__file-selector-button: #7a7a7a;
   --color-link--active: #919191;
   --color-link--disabled: #4e4e4e;
   --color-link--focus: #919191;
@@ -117,7 +123,6 @@
   --fill-stack--current: none;
   --fill-stack--hover: #242424;
   --fill-stack: #242424;
-  --fill-tab--current: none;
   --fill-tab--hover: #242424;
   --fill-tab: #242424;
   --fill: #222222;
@@ -201,8 +206,11 @@
 .is\:dark .lot\:menus a:active {
   --fill-menus-link--current: #292929;
 }
+.is\:dark .is\:folder::before {
+  --stroke-folder-icon: transparent;
+}
 .is\:dark .is\:folder::after {
-  --fill-folder-icon: #545454;
+  --stroke-folder-icon: #545454;
 }
 .is\:dark .lot\:file:hover,
 .is\:dark .lot\:file:active {
@@ -239,6 +247,11 @@
   --color-input--hover: #4e4e4e;
   --color-input--invalid: #a72727;
   --color-input: #4e4e4e;
+  --color-input__file-selector-button--active: #646464;
+  --color-input__file-selector-button--disabled: #c8c8c8;
+  --color-input__file-selector-button--focus: #646464;
+  --color-input__file-selector-button--hover: #7a7a7a;
+  --color-input__file-selector-button: #7a7a7a;
   --color-link--active: #646464;
   --color-link--disabled: #c8c8c8;
   --color-link--focus: #646464;
@@ -316,7 +329,6 @@
   --fill-stack--current: none;
   --fill-stack--hover: #fbfbfb;
   --fill-stack: #fbfbfb;
-  --fill-tab--current: none;
   --fill-tab--hover: #fbfbfb;
   --fill-tab: #fbfbfb;
   --fill: white;
@@ -403,8 +415,11 @@
 .is\:light .lot\:menus a:active {
   --fill-menus-link--current: #f6f6f6;
 }
+.is\:light .is\:folder::before {
+  --stroke-folder-icon: transparent;
+}
 .is\:light .is\:folder::after {
-  --fill-folder-icon: #818181;
+  --stroke-folder-icon: #818181;
 }
 .is\:light .lot\:file:hover,
 .is\:light .lot\:file:active {

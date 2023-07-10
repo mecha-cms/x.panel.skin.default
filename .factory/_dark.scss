@@ -17,6 +17,11 @@
   --color-input--hover: #{shade(70%)};
   --color-input--invalid: #{mix(red, shade(70%), 50%)};
   --color-input: #{shade(70%)};
+  --color-input__file-selector-button--active: #{shade(50%)};
+  --color-input__file-selector-button--disabled: #{shade(20%)};
+  --color-input__file-selector-button--focus: #{shade(50%)};
+  --color-input__file-selector-button--hover: #{shade(40%)};
+  --color-input__file-selector-button: #{shade(40%)};
   --color-link--active: #{shade(50%)};
   --color-link--disabled: #{shade(20%)};
   --color-link--focus: #{shade(50%)};
@@ -86,7 +91,6 @@
   --fill-stack--current: none;
   --fill-stack--hover: #{shade(1%)};
   --fill-stack: #{shade(1%)};
-  --fill-tab--current: none;
   --fill-tab--hover: #{shade(1%)};
   --fill-tab: #{shade(1%)};
   --fill: #{shade(0%)};
@@ -161,8 +165,11 @@
     }
   }
   .is\:folder {
+    &::before {
+      --stroke-folder-icon: transparent;
+    }
     &::after {
-      --fill-folder-icon: #{darken(shade(40%), 15%)};
+      --stroke-folder-icon: #{darken(shade(40%), 15%)};
     }
   }
   @each $v in (file, folder, page) {
