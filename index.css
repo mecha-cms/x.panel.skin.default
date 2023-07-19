@@ -332,9 +332,6 @@
   --fill-tab--hover: #fbfbfb;
   --fill-tab: #fbfbfb;
   --fill: white;
-  --shadow-button--focus: 0 0 0 3px rgba(0, 0, 0, 0.05);
-  --shadow-input--focus: 0 0 0 3px rgba(0, 0, 0, 0.05);
-  --shadow-input--invalid: 0 0 0 3px rgba(255, 0, 0, 0.15);
   --stroke--active: #858585;
   --stroke--focus-visible: rgba(0, 0, 0, 0.125);
   --stroke--focus: #9c9c9c;
