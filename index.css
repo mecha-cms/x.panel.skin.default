@@ -129,7 +129,6 @@
   --stroke--active: #434343;
   --stroke--focus-visible: rgba(255, 255, 255, 0.025);
   --stroke--focus: #383838;
-  --stroke--hover: #383838;
   --stroke-code-block: #2d2d2d;
   --stroke-file-icon: #646464;
   --stroke-fix: #383838;
@@ -335,7 +334,6 @@
   --stroke--active: #858585;
   --stroke--focus-visible: rgba(0, 0, 0, 0.125);
   --stroke--focus: #9c9c9c;
-  --stroke--hover: #9c9c9c;
   --stroke-code-block: #b2b2b2;
   --stroke-file-icon: #a7a7a7;
   --stroke-fix: #a7a7a7;
