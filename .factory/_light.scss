@@ -180,4 +180,8 @@
       }
     }
   }
+  .not\:active {
+    --color-code: var(--color--disabled);
+    --color-link: var(--color-link--disabled);
+  }
 }

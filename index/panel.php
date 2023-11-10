@@ -8,7 +8,7 @@ if (!isset($state->x->{'panel.skin'})) {
 $name = $state->x->panel->skin->name ?? "";
 $variant = $state->x->panel->skin->variant ?? 'dark';
 
-// Load asset and enable variant option if current `skin` value is `default`
+// Load asset and enable variant option if current `skin.name` value is `default`
 if ('default' === $name) {
     $_['asset']['panel.skin.' . $name] = [
         'id' => false,

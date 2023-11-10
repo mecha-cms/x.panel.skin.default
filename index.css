@@ -226,6 +226,10 @@
   --fill-page--current: #292929;
   --stroke-page--current: #292929;
 }
+.is\:dark .not\:active {
+  --color-code: var(--color--disabled);
+  --color-link: var(--color-link--disabled);
+}
 
 .is\:light {
   --color--disabled: #b2b2b2;
@@ -430,4 +434,8 @@
 .is\:light .lot\:page:active {
   --fill-page--current: #f6f6f6;
   --stroke-page--current: #f6f6f6;
+}
+.is\:light .not\:active {
+  --color-code: var(--color--disabled);
+  --color-link: var(--color-link--disabled);
 }
