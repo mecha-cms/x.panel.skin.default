@@ -97,6 +97,11 @@
   --stroke--active: #{shade(15%)};
   --stroke--focus-visible: rgba(255, 255, 255, 0.025);
   --stroke--focus: #{shade(10%)};
+  --stroke-button--active: transparent;
+  --stroke-button--disabled: transparent;
+  --stroke-button--focus: transparent;
+  --stroke-button--hover: transparent;
+  --stroke-button: transparent;
   --stroke-code-block: #{shade(5%)};
   --stroke-file-icon: #{shade(30%)};
   --stroke-fix: #{shade(10%)};
