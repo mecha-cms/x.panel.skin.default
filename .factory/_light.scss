@@ -88,6 +88,7 @@
     --fill-#{$v}-link--hover: #{shade(98%)};
     --fill-#{$v}-status: #{shade(95%)};
   }
+  --fill-section: #{shade(98%)};
   --fill-stack--current: none;
   --fill-stack--hover: #{shade(98%)};
   --fill-stack: #{shade(98%)};
@@ -112,6 +113,7 @@
   --stroke-input--invalid: #{mix(red, shade(60%), 50%)};
   --stroke-input: #{shade(60%)};
   --stroke-output: transparent;
+  --stroke-section: #{shade(65%)};
   --stroke-stack: #{shade(65%)};
   --stroke-tab: #{shade(65%)};
   --stroke: #{shade(65%)};

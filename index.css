@@ -120,6 +120,7 @@
   --fill-menus-link--focus: #242424;
   --fill-menus-link--hover: #242424;
   --fill-menus-status: #2d2d2d;
+  --fill-section: #242424;
   --fill-stack--current: none;
   --fill-stack--hover: #242424;
   --fill-stack: #242424;
@@ -144,6 +145,7 @@
   --stroke-input--invalid: #a12222;
   --stroke-input: #383838;
   --stroke-output: transparent;
+  --stroke-section: #2d2d2d;
   --stroke-stack: #2d2d2d;
   --stroke-tab: #2d2d2d;
   --stroke: #2d2d2d;
@@ -334,6 +336,7 @@
   --fill-menus-link--focus: #fbfbfb;
   --fill-menus-link--hover: #fbfbfb;
   --fill-menus-status: #f4f4f4;
+  --fill-section: #fbfbfb;
   --fill-stack--current: none;
   --fill-stack--hover: #fbfbfb;
   --fill-stack: #fbfbfb;
@@ -358,6 +361,7 @@
   --stroke-input--invalid: #d35454;
   --stroke-input: #a7a7a7;
   --stroke-output: transparent;
+  --stroke-section: #b2b2b2;
   --stroke-stack: #b2b2b2;
   --stroke-tab: #b2b2b2;
   --stroke: #b2b2b2;
