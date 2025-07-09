@@ -25,8 +25,12 @@ function onChange() {
 } onChange();
 
 function onChangeToggle() {
-    letClasses(R, ['is:dark', 'is:light']);
-    setClass(R, 'is:' + this.value);
+    letClasses(R, [
+        'is-dark', 'is-light',
+        'is:dark', 'is:light' // Mecha < 3.3
+    ]);
+    setClass(R, 'is-' + this.value);
+    setClass(R, 'is:' + this.value); // Mecha < 3.3
 }
 
 W._.on('change', onChange);

@@ -22,6 +22,7 @@
   display: none;
 }
 
+.is-dark,
 .is\:dark {
   --color--disabled: #4e4e4e;
   --color-bar-link--active: #919191;
@@ -196,48 +197,68 @@
   --color-option-picker__option--active: var(--color);
   --fill-option-picker__option--active: rgba(255, 255, 255, 0.05);
 }
+.is-dark blockquote,
+.is-dark caption,
+.is-dark figcaption,
+.is-dark .description,
 .is\:dark blockquote,
 .is\:dark caption,
 .is\:dark figcaption,
 .is\:dark .description {
   color: var(--color-description);
 }
+.is-dark .lot\:menu a:focus,
+.is-dark .lot\:menu a:hover,
+.is-dark .lot\:menu a:active,
 .is\:dark .lot\:menu a:focus,
 .is\:dark .lot\:menu a:hover,
 .is\:dark .lot\:menu a:active {
   --fill-menu-link--current: #292929;
 }
+.is-dark .lot\:menus a:focus,
+.is-dark .lot\:menus a:hover,
+.is-dark .lot\:menus a:active,
 .is\:dark .lot\:menus a:focus,
 .is\:dark .lot\:menus a:hover,
 .is\:dark .lot\:menus a:active {
   --fill-menus-link--current: #292929;
 }
+.is-dark .is\:folder::before,
 .is\:dark .is\:folder::before {
   --stroke-folder-icon: transparent;
 }
+.is-dark .is\:folder::after,
 .is\:dark .is\:folder::after {
   --stroke-folder-icon: #545454;
 }
+.is-dark .lot\:file:hover,
+.is-dark .lot\:file:active,
 .is\:dark .lot\:file:hover,
 .is\:dark .lot\:file:active {
   --fill-file--current: #292929;
   --stroke-file--current: #292929;
 }
+.is-dark .lot\:folder:hover,
+.is-dark .lot\:folder:active,
 .is\:dark .lot\:folder:hover,
 .is\:dark .lot\:folder:active {
   --fill-folder--current: #292929;
   --stroke-folder--current: #292929;
 }
+.is-dark .lot\:page:hover,
+.is-dark .lot\:page:active,
 .is\:dark .lot\:page:hover,
 .is\:dark .lot\:page:active {
   --fill-page--current: #292929;
   --stroke-page--current: #292929;
 }
+.is-dark .not\:active,
 .is\:dark .not\:active {
   --color-code: var(--color--disabled);
   --color-link: var(--color-link--disabled);
 }
 
+.is-light,
 .is\:light {
   --color--disabled: #b2b2b2;
   --color-bar-link--active: #646464;
@@ -412,43 +433,62 @@
   --color-option-picker__option--active: var(--color);
   --fill-option-picker__option--active: rgba(0, 0, 0, 0.05);
 }
+.is-light blockquote,
+.is-light caption,
+.is-light figcaption,
+.is-light .description,
 .is\:light blockquote,
 .is\:light caption,
 .is\:light figcaption,
 .is\:light .description {
   color: var(--color-description);
 }
+.is-light .lot\:menu a:focus,
+.is-light .lot\:menu a:hover,
+.is-light .lot\:menu a:active,
 .is\:light .lot\:menu a:focus,
 .is\:light .lot\:menu a:hover,
 .is\:light .lot\:menu a:active {
   --fill-menu-link--current: #f6f6f6;
 }
+.is-light .lot\:menus a:focus,
+.is-light .lot\:menus a:hover,
+.is-light .lot\:menus a:active,
 .is\:light .lot\:menus a:focus,
 .is\:light .lot\:menus a:hover,
 .is\:light .lot\:menus a:active {
   --fill-menus-link--current: #f6f6f6;
 }
+.is-light .is\:folder::before,
 .is\:light .is\:folder::before {
   --stroke-folder-icon: transparent;
 }
+.is-light .is\:folder::after,
 .is\:light .is\:folder::after {
   --stroke-folder-icon: #818181;
 }
+.is-light .lot\:file:hover,
+.is-light .lot\:file:active,
 .is\:light .lot\:file:hover,
 .is\:light .lot\:file:active {
   --fill-file--current: #f6f6f6;
   --stroke-file--current: #f6f6f6;
 }
+.is-light .lot\:folder:hover,
+.is-light .lot\:folder:active,
 .is\:light .lot\:folder:hover,
 .is\:light .lot\:folder:active {
   --fill-folder--current: #f6f6f6;
   --stroke-folder--current: #f6f6f6;
 }
+.is-light .lot\:page:hover,
+.is-light .lot\:page:active,
 .is\:light .lot\:page:hover,
 .is\:light .lot\:page:active {
   --fill-page--current: #f6f6f6;
   --stroke-page--current: #f6f6f6;
 }
+.is-light .not\:active,
 .is\:light .not\:active {
   --color-code: var(--color--disabled);
   --color-link: var(--color-link--disabled);

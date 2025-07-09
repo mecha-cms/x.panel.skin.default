@@ -1,4 +1,5 @@
-.is\:dark {
+.is-dark,
+.is\:dark { // Mecha < 3.3
   --color--disabled: #{shade(20%)};
   --color-bar-link--active: #{shade(50%)};
   --color-bar-link--current: #{shade(60%)};
