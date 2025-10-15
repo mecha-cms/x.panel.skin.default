@@ -182,8 +182,8 @@
   --color-option-picker__option: var(--color);
   --color-tag-picker__tag--disabled: #a7a7a7;
   --color-tag-picker__tag--read-only: #a7a7a7;
-  --color-tag-picker__tag-x: #f4f4f4;
   --color-tag-picker__tag: #c8c8c8;
+  --color-tag-picker__x: #f4f4f4;
   --fill-option-picker__option--selected: rgba(255, 255, 255, 0.025);
   --fill-tag-picker__tag--disabled: #2d2d2d;
   --fill-tag-picker__tag--focus: #383838;
@@ -423,15 +423,15 @@
   --color-option-picker__option: var(--color);
   --color-tag-picker__tag--disabled: #7a7a7a;
   --color-tag-picker__tag--read-only: #7a7a7a;
-  --color-tag-picker__tag-x: #646464;
   --color-tag-picker__tag: #595959;
+  --color-tag-picker__x: #646464;
   --fill-option-picker__option--selected: rgba(0, 0, 0, 0.025);
   --fill-tag-picker__tag--disabled: #dedede;
   --fill-tag-picker__tag--focus: #c8c8c8;
   --fill-tag-picker__tag--read-only: lightgray;
   --fill-tag-picker__tag--selected: #bdbdbd;
   --fill-tag-picker__tag: #c8c8c8;
-  --stroke-tag-picker__tag--focus: lightgray;
+  --stroke-tag-picker__tag--focus: #a7a7a7;
   --color-option-picker__option--hover: var(--color);
   --fill-option-picker__option--hover: rgba(0, 0, 0, 0.05);
   --color-option-picker__option--focus: var(--color);
@@ -441,7 +441,7 @@
 }
 .is-light .tag-picker__tag[aria-pressed]:focus,
 .is\:light .tag-picker__tag[aria-pressed]:focus {
-  --stroke-tag-picker__tag--selected: #dedede;
+  --stroke-tag-picker__tag--selected: #9c9c9c;
 }
 .is-light blockquote,
 .is-light caption,

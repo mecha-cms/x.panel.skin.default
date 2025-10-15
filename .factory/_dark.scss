@@ -135,8 +135,8 @@
   --color-option-picker__option: var(--color);
   --color-tag-picker__tag--disabled: #{shade(60%)};
   --color-tag-picker__tag--read-only: #{shade(60%)};
-  --color-tag-picker__tag-x: #{shade(95%)};
   --color-tag-picker__tag: #{shade(75%)};
+  --color-tag-picker__x: #{shade(95%)};
   --fill-option-picker__option--selected: rgba(255, 255, 255, 0.025);
   --fill-tag-picker__tag--disabled: #{shade(5%)};
   --fill-tag-picker__tag--focus: #{shade(10%)};
