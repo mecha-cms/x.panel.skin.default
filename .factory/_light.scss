@@ -139,10 +139,14 @@
   --color-tag-picker__tag: #{shade(25%)};
   --fill-option-picker__option--selected: rgba(0, 0, 0, 0.025);
   --fill-tag-picker__tag--disabled: #{shade(85%)};
-  --fill-tag-picker__tag--focus: #{shade(70%)};
+  --fill-tag-picker__tag--focus: #{shade(75%)};
   --fill-tag-picker__tag--read-only: #{shade(80%)};
   --fill-tag-picker__tag--selected: #{shade(70%)};
   --fill-tag-picker__tag: #{shade(75%)};
+  --stroke-tag-picker__tag--focus: #{shade(80%)};
+  .tag-picker__tag[aria-pressed]:focus {
+    --stroke-tag-picker__tag--selected: #{shade(85%)};
+  }
   @each $v in (hover, focus, active) {
     --color-option-picker__option--#{$v}: var(--color);
     --fill-option-picker__option--#{$v}: rgba(0, 0, 0, 0.05);
