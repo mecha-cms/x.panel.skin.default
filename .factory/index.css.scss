@@ -20,10 +20,10 @@ $mix: #fff;
   }
 }
 
-.lot\:files,
-.lot\:folders,
-.lot\:pages {
-  .lot\:tasks {
+.lot-files,
+.lot-folders,
+.lot-pages {
+  .lot-tasks {
     gap: 0;
     > * {
       .title {

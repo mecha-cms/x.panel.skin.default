@@ -1,5 +1,4 @@
-.is-light,
-.is\:light { // Mecha < 3.3
+.is-light {
   --color--disabled: #{shade(65%)};
   --color-bar-link--active: #{shade(30%)};
   --color-bar-link--current: #{shade(30%)};
@@ -157,7 +156,7 @@
   .description {
     color: var(--color-description);
   }
-  .lot\:menu {
+  .lot-menu {
     a {
       &:focus,
       &:hover,
@@ -166,7 +165,7 @@
       }
     }
   }
-  .lot\:menus {
+  .lot-menus {
     a {
       &:focus,
       &:hover,
@@ -175,7 +174,7 @@
       }
     }
   }
-  .is\:folder {
+  .is-folder {
     &::before {
       --stroke-folder-icon: transparent;
     }
@@ -184,7 +183,7 @@
     }
   }
   @each $v in (file, folder, page) {
-    .lot\:#{$v} {
+    .lot-#{$v} {
       &:hover,
       &:active {
         --fill-#{$v}--current: #{shade(96%)};
@@ -192,7 +191,7 @@
       }
     }
   }
-  .not\:active {
+  .not-active {
     --color-code: var(--color--disabled);
     --color-link: var(--color-link--disabled);
   }
